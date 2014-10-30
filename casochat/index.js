@@ -3,7 +3,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
 app.get('/', function(req, res){
-  res.sendFile('/Users/caso/Desktop/caso_chat/index.html');
+  res.sendFile('/Users/caso/Desktop/casochatLocal/casochat/index.html');
   console.log('selam');
 });
 
